@@ -1,0 +1,75 @@
+.rootContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 25px 0 40px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.storySection {
+  padding: 30px 20px;
+}
+
+.story {
+  transform: scale(1);
+}
+
+.actions {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  display: flex;
+  background: #fff;
+  z-index: 1;
+}
+
+.button {
+  margin: 0;
+  border: none;
+  padding: 4px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #333;
+  background-color: #fff;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: 'Nunito Sans', -apple-system, '.SFNSText-Regular',
+    'San Francisco', BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  font-weight: 700;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: -1px;
+  border-radius: 4px 0 0 0;
+}
+
+.button:focus {
+  box-shadow: #1ea7fd 0 -3px 0 0 inset;
+  outline: none;
+}
+
+.codeContainer {
+  display: none;
+}
+
+.showCode.codeContainer {
+  display: block;
+}
+
+.showCode .codeContainer .docblock-source {
+  margin: 0;
+  border-radius: 0;
+}

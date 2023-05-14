@@ -1,0 +1,17 @@
+import { Meta, Story } from '@storybook/blocks';
+import * as ButtonStories from './Button.stories';
+import { ComponentPreview } from './custom-blocks/ComponentPreview';
+
+<Meta of={ButtonStories} />
+
+# Button title
+
+some text
+
+## General
+
+<ComponentPreview of={ButtonStories.General} />
+
+## With State
+
+<ComponentPreview of={ButtonStories.WithState} />
