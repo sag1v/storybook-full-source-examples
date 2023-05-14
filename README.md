@@ -1,3 +1,3 @@
 # storybook-full-source-examples
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-eeqtnm)
+An example of hoe to generate a full source code example for stories.
